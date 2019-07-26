@@ -12,7 +12,7 @@ public class JdbcUtil {
     private static final String DRIVER="com.mysql.cj.jdbc.Driver";
     private static final String URL="jdbc:mysql://localhost:3306/cell?serverTimezone=UTC";
     private static final String NAME="root";
-    private static final String PASS="4017";
+    private static final String PASS="";
     public Connection getConnection(){
         try {
             Class.forName(DRIVER);
